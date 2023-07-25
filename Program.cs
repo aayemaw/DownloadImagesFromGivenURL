@@ -21,6 +21,7 @@ namespace DownloadImagesFromGivenURL
             }
 
             DownloadAllImagesAsync(websiteURL, savingFilePath).Wait();
+
         }
 
         private static async Task DownloadAllImagesAsync(Uri url, string savingFilePath)
